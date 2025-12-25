@@ -1,0 +1,69 @@
+1--İlişkisel veritabanlarındaki (SQL) 'Tablo' (Table) kavramı, MongoDB'de aşağıdakilerden hangisine karşılık gelir?
+A.Database
+B.Field
+C.Document
+D.Collection
+--cevap:D
+
+2)MongoDB'yi grafiksel bir arayüz üzerinden yönetmek ve verileri görsel olarak incelemek için kullanılan masaüstü uygulaması hangisidir?
+A.MongoDB Atlas
+B.MongoDB Compass
+C.MongoDB Shell (mongosh)
+D.Postman
+--cevap:B
+
+3)MongoDB Shell (mongosh) kullanarak bir koleksiyondaki tüm verileri getirmek için hangi metod kullanılır?
+A.db.collection.getAll()
+B.db.collection.select()
+C.db.collection.find()
+D.db.collection.fetch()
+--cevap:C
+
+4)İçerisinde ['tür1', 'tür2'] gibi bir dizi barındıran 'türler' alanında, hem 'tür1' hem de 'tür2' değerlerinin AYNI ANDA bulunmasını sağlayan operatör hangisidir?
+A.$exist
+B.$and
+C.$all
+D.$in
+--cevap:C
+
+5)Bir dökümanın içindeki başka bir nesneye (nested object) erişmek için kullanılan yöntem aşağıdakilerden hangisidir? (Örn: yazar nesnesinin altındaki ad alanı)
+A.yazar[ad]
+B.yazar/ad
+C."yazar.ad"
+D.yazar->ad
+--cevap:C
+
+6)MongoDB'nin 'NoSQL' (Not Only SQL) olarak adlandırılmasının temel sebebi nedir?
+A.İlişkisel veritabanlarından daha yavaş olması
+B.İnternet bağlantısı olmadan çalışamaması
+C.Geleneksel tablo yapısı yerine esnek döküman tabanlı bir yapı sunması
+D.Sadece metin dosyalarını saklayabilmesi
+--cevap:C
+
+7)Bir koleksiyon içindeki dökümanları çekerken kullanılan limit(n) metodu ne işe yarar?
+A.Döküman içindeki alan sayısını sınırlar
+B.Koleksiyondaki toplam döküman sayısını verir
+C.Sadece n numaralı dökümanı getirir
+D.Sorgu sonucunda dönecek maksimum döküman sayısını belirler
+--cevap:D
+
+8)MongoDB'nin döküman tabanlı (Document-based) olmasının sağladığı en büyük avantaj nedir?
+A.SQL sorgularının doğrudan çalışabilmesi
+B.Her dökümanın farklı alanlara (şemaya) sahip olabilmesi
+C.Verilerin Excel tablosu gibi görünmesi
+D.Verilerin sadece RAM üzerinde saklanması
+--cevap:B
+
+9)MongoDB'de Index (Dizin) kullanmanın en temel dezavantajı nedir?
+A.Verilerin bozulmasına yol açması
+B.Sadece sayısal alanlarda kullanılabilmesi
+C.Okuma işlemlerini yavaşlatması
+D.Yazma (Ekleme/Güncelleme) işlemlerini bir miktar yavaşlatması ve ek alan kaplaması
+--cevap:D
+
+10)MongoDB'nin 'Ölçeklenebilirlik' (Scalability) özelliği neyi ifade eder?
+A.Sadece küçük verilerle çalışabildiğini
+B.Verilerin otomatik olarak silinmesini
+C.Aynı anda sadece bir kullanıcının bağlanabilmesini
+D.Veritabanının artan yükü kaldırmak için kolayca genişletilebilmesini
+--cevap:D
